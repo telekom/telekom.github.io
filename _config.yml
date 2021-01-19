@@ -1,0 +1,41 @@
+# Site settings
+title: Telekom Open Source
+description: "Telekom Open Source Blog"
+url: "http://telekom.github.io/"
+author:
+  name: "Telekom Open Source Program Office"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:year/:month/:title.html
+paginate: 8
+paginate_path: /page:num/
+
+excerpt_separator: <!--more-->
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+navigation_menu: false
+theme: jekyll-theme-slate
