@@ -1,7 +1,6 @@
-# telekom-security.github.io :globe_with_meridians:
+# telekom.github.io
 
 This is the jekyll source for our blog. You can browse it on https://telekom.github.io.
-
 
 ## Development Usage
 1. gem install bundler
